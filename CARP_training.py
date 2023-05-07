@@ -13,6 +13,7 @@ from cnn_models import CARP_CNN
 from datasets import CARPDataset, CARP_batch_seqs
 
 # dataset filepaths
+CARP_IN = "carp-weights"
 IN = "train-test/splits"
 
 BYTES_TRAIN_SET_FILEPATH = f"{IN}/train.tsv"
