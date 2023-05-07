@@ -295,7 +295,7 @@ class Dil_CNN_7(torch.nn.Module):
 
 
 class CARP_CNN(torch.nn.Module):
-  def __init__(self, n_classes, window_len=3, encoding_dim=128, dropout=0.3):
+  def __init__(self, n_classes, window_len=3, encoding_dim=1024, dropout=0.3):
     super().__init__()
     self.layer1 = torch.nn.Sequential(
       torch.nn.Conv1d(in_channels = encoding_dim, out_channels = 64, kernel_size=1),
