@@ -6,7 +6,7 @@ Student Number: 19014550
 This code makes use of PyTorch, Pandas and Scikit-Learn, as well as the "sequence-models" package mentioned specified [here](https://github.com/microsoft/protein-sequence-models).
 
 ## Usage
-The pretrained CARP embeddings can be downloaded by following the instructions [here](https://github.com/microsoft/protein-sequence-models). To run the model provided in the repo, which is the best-performing model from the project report, the pretrained CARP embeddings should be stored in the root directory with filename "carp_76M.pt" (as required by the run_model.py script in this repo).
+The pretrained CARP embeddings can be downloaded by following the instructions [here](https://github.com/microsoft/protein-sequence-models). To run the model provided in the repo, which is the best-performing model from the project report, the pretrained CARP_76M embeddings should be stored in the root directory with filename "carp_76M.pt" (as required by the run_model.py script in this repo).
 
 Binding site prediction can be performed with the run_model.py script for a specified protein sequence. The sequence parameter is a standard string of characters representing an amino acid sequence.
 ```
